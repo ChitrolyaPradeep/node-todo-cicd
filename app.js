@@ -16,7 +16,7 @@ app.use(methodOverride(function (req, res) {
         // look in urlencoded POST bodies and delete it
         let method = req.body._method;
         delete req.body._method;
-        return method
+        return method 
     }
 }));
 
