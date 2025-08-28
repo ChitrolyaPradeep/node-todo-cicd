@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
   web:
-    image: "prad87420/node-app-test-new:latest"
+    image: "prad87420/node-app:v2"
     ports:
       - "8000:8000"
