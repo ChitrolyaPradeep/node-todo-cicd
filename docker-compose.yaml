@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
   web:
-    image: "prad87420/node-app:v2"
+    image: "prad87420/node-app:v4"
     ports:
       - "8000:8000"
